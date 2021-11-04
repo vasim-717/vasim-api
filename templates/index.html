@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img/3.png" class="d-block w-100" alt="...">
+        <div class=" text-dark carousel-caption d-none d-md-block">
+          <h5>Welcome to the best Vasim API website</h5>
+          <p> vasim API is the best API website in the earth</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/2.png" class="d-block w-100" alt="...">
+
+        <div class=" text-dark carousel-caption d-none d-md-block">
+          <h5>Welcome to the best Vasim API website</h5>
+          <p> vasim API is the best API website in the earth</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/3.png" class="d-block w-100" alt="...">
+        <div class=" text-dark carousel-caption d-none d-md-block">
+          <h5>Welcome to the best Vasim API website</h5>
+          <p> vasim API is the best API website in the earth</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="container my-3 p-2">
+  <h1 class="my-4 text-center p-3">View our API hear</h1>
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="static/img/c1.png" alt="">
+
+        <h2>API-1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos officiis, fugiat facere perspiciatis cumque
+          minus!</p>
+        <p><a class="btn btn-info" href="/listapi">View API 1 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="static/img/c2.png" alt="">
+
+        <h2>API-2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolor unde quos adipisci ut dolores?</p>
+        <p><a class="btn btn-info" href="/listapi">View API 2 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="static/img/c3.png" alt="">
+
+        <h2>API-3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas temporibus, rerum numquam illo
+          provident.</p>
+        <p><a class="btn btn-info" href="/listapi">View API 3 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+
+
+
+    <div class="row featurette m-3 x-3 p-5">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">To Buy Our API's Fill the form </h2>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore consequatur ipsa iste
+          dignissimos ex accusantium, quo cumque harum libero, culpa quasi fuga exercitationem quam illum quaerat eaque
+          veniam odio alias labore, fugit laborum aperiam. Enim asperiores alias in placeat mollitia autem quisquam
+          eveniet ex architecto temporibus aperiam cumque, laboriosam rem!</p>
+        <p><a class="btn btn-info" href="/contact">Buy Our API &raquo;</a></p>
+
+
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="static/img/1.png" alt="">
+      </div>
+    </div>
+
+
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+</div>
+{% endblock body %}
